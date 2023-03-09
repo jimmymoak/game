@@ -10,16 +10,17 @@ config_version=4
 
 [application]
 
-config/name="game"
+config/name="2d"
 config/icon="res://icon.png"
+
+[display]
+
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
-
-[mono]
-
-project/assembly_name="game"
 
 [physics]
 
